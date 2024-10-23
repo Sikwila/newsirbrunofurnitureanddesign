@@ -1,0 +1,100 @@
+
+.carousel2 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.Testimonials1a, .Testimonials2a, .Testimonials3a {
+  display: none;
+}
+
+.Testimonials1a, .Testimonials2a, .Testimonials3a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Testimonials1b, .Testimonials2b, .Testimonials3b {
+  background-color: #1F2630;
+  width: 470px;
+  box-shadow: 4px 4px 4px gray;
+  height: 320px;
+}
+
+.Testimonials1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.Testimonials-text {
+  color: #ffffff;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+}
+
+.client-img {
+  width: 150px;
+  height: 250px;
+  border-radius: 0%;
+}
+
+.client-name {
+  color: #ffffff;
+}
+
+.client-name1 {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.client {
+  font-size: 13px;
+  margin-top: -10px;
+}
+
+.carousel-btns2 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.prev2, .next2 {
+  background-color: transparent;
+  border: none;
+  color: #cd897e;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.prev2 {
+  margin-left: 10px;
+}
+
+.next2 {
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

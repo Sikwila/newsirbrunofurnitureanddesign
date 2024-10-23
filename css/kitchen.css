@@ -1,0 +1,311 @@
+:root{
+  --main-color1: linear-gradient(to bottom right, #2E2F41 25%, #1F2630 75%, #CD897E);
+  --main-color2: linear-gradient(to bottom left, #1F2630 25%, #CD897E 50%, #2E2F41 75%);
+--main-color3: linear-gradient(to top right, #1F2630 0%, #2E2F41 60%, #CD897E 100%);
+--main-color4:#2E2F41;
+--main-color5:#1F2630;
+--main-color6:#CD897E;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+background-color: #1F2630;;
+  overflow-x: hidden;
+}
+
+#Dining{
+  background: linear-gradient(to bottom right, #2E2F41 25%, #1F2630 75%);
+  width: 100%;
+  height: 320vh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.Dining-heading{
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+padding:30px;
+
+@media (max-width:600px){
+  font-size: 30px;
+}
+
+}
+
+.products{
+  width: 270px;
+  height: 270px;
+  background-color: #eeeeee73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width:1400px){
+    width: 300px;
+    height: 300px;
+  }
+
+  @media (min-width:1500px){
+    width: 330px;
+    height: 330px;
+  }
+
+  @media (min-width:1600px){
+    width: 350px;
+    height: 350px;
+  }
+
+  @media (min-width:1800px){
+    width: 400px;
+    height: 400px;
+  }
+
+}
+
+.Products-info{
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Products-info p ,.Products-info a{
+  @media (min-width:1400px){
+    scale: 1.1;
+  }
+
+  @media (min-width:1600px){
+    scale: 1.2;
+  }
+
+  @media (min-width:1800px){
+    scale: 1.26;
+  }
+
+  @media (min-width:1900px){
+    scale: 1.3;
+  }
+
+}
+
+
+.top-products2,.top-products1{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  @media (min-width:600px) {
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+  }
+}
+
+.top-products,.bottom-products{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  /* @media (min-width:1000px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+  } */
+
+
+}
+
+.extra{
+  @media (min-width:900px) and (max-width:1199px){
+    display: flex;
+   }
+
+   @media  (max-width:899px){
+    display: none;
+   }
+}
+
+.extra1{
+  @media  (max-width:1199px){
+    display: none;
+   }
+}
+
+.prdct-price{
+  display: flex;
+  flex-direction: column;
+}
+
+.links2{
+  color: #f0e9ee;
+  font-style: italic;
+}
+
+.products-img{
+  background-size: cover;
+  background-position-x: center;
+  width: 250px;
+  height: 250px;
+}
+
+.product-img1{
+  background-image: url(https://i.ibb.co/7jpBmVZ/blue-kitchen.jpg);
+
+}
+
+.product-img2{
+  background-image: url(https://i.ibb.co/xCzTTRP/Modern-Kitchen.jpg);
+
+}
+
+.product-img2b{
+  background-image: url(https://i.ibb.co/41Sv9f4/Cafehailee.jpg);
+
+}
+
+.product-img2c{
+  background-image: url(https://i.ibb.co/WcgSwNy/The-curved-banquette-seating.jpg);
+}
+
+.product-img3{
+  background-image: url(https://i.ibb.co/gWbwPCc/fancy-cabs.jpg);
+}
+
+.product-img4b{
+
+  background-image: url(https://i.ibb.co/3Cwd05G/Luxury-kitchen.jpg);
+}
+
+.product-img4{
+  background-image: url(https://i.ibb.co/Rgy51F9/white-b-kitchen.jpg);
+}
+.product-img4c{
+  background-image: url(https://i.ibb.co/mSTDGPk/k-chairs.jpg);
+}
+
+
+.product-img22a{
+  background-image: url(https://i.ibb.co/fXYQ47N/chairs2.jpg);
+}
+
+.product-img22b{
+  background-image: url(https://i.ibb.co/mSTDGPk/k-chairs.jpg);
+}
+
+.product-img22c{
+  background-image: url(https://i.ibb.co/5hqqjx4/chairs1.jpg);
+}
+
+.product-img22d{
+  background-image: url(https://i.ibb.co/HYNyrLM/High-wooden-Bar-stool-Counter-Stool-Unique-design.jpg);
+}
+
+
+.product-img21a{
+  background-image: url(https://i.ibb.co/DbC2HHD/Compasso-Living-Chair-Quadrifoglio-Group.jpg);
+}
+
+
+.product-img21b{  
+  background-image: url(https://i.ibb.co/23zN0fm/Designonline.jpg);
+}
+
+
+.product-img21c{
+  background-image: url(https://i.ibb.co/rvDpd1L/bar-stool.jpg);
+}
+
+
+.product-img21d{
+  background-image: url(https://i.ibb.co/Kb5M6KF/Bar-Chair-Set-Of-2-at-Helenmedeiros.jpg);
+}
+
+
+.product-img20a{
+  background-image: url(https://i.ibb.co/tzBxhb8/PANTRY2.jpg);
+}
+
+
+.product-img20b{
+  background-image: url(https://i.ibb.co/DkKZ66j/PANTRY8.jpg);
+}
+
+
+.product-img20c{
+  background-image: url(https://i.ibb.co/hRxCh0j/WHITE-PANTRY.jpg);
+}
+
+
+.product-img20d{
+  background-image: url(https://i.ibb.co/NVBHFgD/PANTRY3.jpg);
+}
+
+
+.product-img23a{
+  background-image: url(https://i.ibb.co/kK8P95T/VEGIE-RACK.jpg);
+}
+
+
+.product-img23b{
+  background-image: url(https://i.ibb.co/GdtR29v/VEGIE-RACK1.jpg);
+}
+
+
+.product-img23c{
+  background-image: url(https://i.ibb.co/LCMN32F/Wood-Rack-Basket-Stand-with-5-Drawers.jpg);
+}
+
+
+.product-img23d{
+  background-image: url(https://i.ibb.co/PGs8Vwx/This-item-is-unavailable-Etsy.jpg);
+}
+
+
+.product-img24a{
+background-image: url(https://i.ibb.co/s1ybknD/wine-holder.jpg);
+}
+
+
+.product-img24b{
+  background-image: url(https://i.ibb.co/3ykmRVL/wine-rack2.jpg);
+}
+
+
+.product-img24c{
+  background-image: url(https://i.ibb.co/16tXXsd/wood-wine-holder.jpg);
+}
+
+
+.product-img24d{
+  background-image: url(https://i.ibb.co/RTkYvCr/Standing-Wine-Rack-Bottles-Holder.jpg);
+}
+
+
+
+
+.product-img26a{
+  background-image: url(https://i.ibb.co/6mQZjT0/wine-mounted.jpg);
+}
+
+
+.product-img26b{
+  background-image: url(https://i.ibb.co/g3VGpsR/wine-rack.jpg);
+}
+
+
+.product-img26c{
+  background-image: url(https://i.ibb.co/3ykmRVL/wine-rack2.jpg);
+}
+
+
+.product-img26d{
+  background-image: url(https://i.ibb.co/16tXXsd/wood-wine-holder.jpg);
+}
+

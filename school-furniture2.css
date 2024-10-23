@@ -1,0 +1,293 @@
+:root{
+  --main-color1: linear-gradient(to bottom right, #2E2F41 25%, #1F2630 75%, #CD897E);
+  --main-color2: linear-gradient(to bottom left, #1F2630 25%, #CD897E 50%, #2E2F41 75%);
+--main-color3: linear-gradient(to top right, #1F2630 0%, #2E2F41 60%, #CD897E 100%);
+--main-color4:#2E2F41;
+--main-color5:#1F2630;
+--main-color6:#CD897E;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+background-color: #1F2630;;
+  overflow-x: hidden;
+}
+
+#Dining{
+  background: linear-gradient(to bottom right, #2E2F41 25%, #1F2630 75%);
+  width: 100%;
+  height: 320vh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.Dining-heading{
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+padding:30px;
+
+@media (max-width:600px){
+  font-size: 30px;
+}
+
+}
+
+.products{
+  width: 270px;
+  height: 270px;
+  background-color: #eeeeee73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width:1400px){
+    width: 300px;
+    height: 300px;
+  }
+
+  @media (min-width:1500px){
+    width: 330px;
+    height: 330px;
+  }
+
+  @media (min-width:1600px){
+    width: 350px;
+    height: 350px;
+  }
+
+  @media (min-width:1800px){
+    width: 400px;
+    height: 400px;
+  }
+
+}
+
+.Products-info{
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Products-info p ,.Products-info a{
+  @media (min-width:1400px){
+    scale: 1.1;
+  }
+
+  @media (min-width:1600px){
+    scale: 1.2;
+  }
+
+  @media (min-width:1800px){
+    scale: 1.26;
+  }
+
+  @media (min-width:1900px){
+    scale: 1.3;
+  }
+
+}
+
+
+.top-products2,.top-products1{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  @media (min-width:600px) {
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+  }
+}
+
+.top-products,.bottom-products{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  /* @media (min-width:1000px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+  } */
+
+
+}
+
+.extra{
+  @media (min-width:900px) and (max-width:1199px){
+    display: flex;
+   }
+
+   @media  (max-width:899px){
+    display: none;
+   }
+}
+
+.extra1{
+  @media  (max-width:1199px){
+    display: none;
+   }
+}
+
+.prdct-price{
+  display: flex;
+  flex-direction: column;
+}
+
+.links2{
+  color: #f0e9ee;
+  font-style: italic;
+}
+
+.products-img{
+  background-size: cover;
+  background-position-x: center;
+  width: 250px;
+  height: 250px;
+}
+
+.product-img1{
+  background-image: url(https://i.ibb.co/DD4kDnH/2ecd.jpg);
+
+}
+
+.product-img2{
+  background-image: url(https://i.ibb.co/wsxXzwq/55ecd.jpg);
+
+}
+
+.product-img2b{
+  background-image: url(https://i.ibb.co/qWhtCtt/ecd5.jpg);
+
+}
+
+.product-img2c{
+  background-image: url(https://i.ibb.co/GVMVrSj/ecd-2.jpg);
+}
+
+.product-img3{
+  background-image: url(https://i.ibb.co/qD4v22V/ecd-coaster-table.jpg);
+}
+
+.product-img4b{
+
+  background-image: url(https://i.ibb.co/BKF5f0X/ecdf.jpg);
+}
+
+.product-img4{
+  background-image: url(https://i.ibb.co/zxGxX8B/ecdddd.jpg);
+}
+
+
+.product-img4c{
+  background-image: url(https://i.ibb.co/QPWP8Hx/ecd-desk.jpg)
+}
+
+
+.product-img22a{
+  background-image: url(https://i.ibb.co/TTR9qHv/deskk.jpg);
+}
+
+.product-img22b{
+  background-image: url(https://i.ibb.co/tQZTrDy/Odosdesign-We-bring-to-life-groundbreaking-ideas.jpg);
+}
+
+.product-img22c{
+  background-image: url(https://i.ibb.co/pbj9tLZ/grades66.jpg);
+}
+
+
+
+.product-img22d{
+  background-image: url(https://i.ibb.co/KbWgKqw/grades3.jpg);
+}
+
+
+.product-img21a{
+  background-image: url(https://i.ibb.co/9N7dmCX/all-grades.jpg);
+}
+
+
+.product-img21b{  
+  background-image: url(https://i.ibb.co/FhngBRc/classs.jpg);
+}
+
+
+.product-img21c{
+  background-image: url(https://i.ibb.co/dP7fSB9/grades2.jpg);
+}
+
+
+.product-img21d{
+  background-image: url(./images/school-funiture/Silhouette®\ Student\ Desk\ -\ 24_\ Deep.jpeg);
+}
+
+
+.product-img20a{
+  background-image: url(./images/school-funiture/grades.jpeg);
+}
+
+
+.product-img20b{
+  background-image: url(./images/school-funiture/class-grades.jpeg);
+}
+
+
+.product-img20c{
+  background-image: url(./images/school-funiture/all-grades-chair.jpeg);
+}
+
+
+.product-img20d{
+  background-image: url(./images/school-funiture/all-grades-chair2.jpeg);
+}
+
+
+.product-img23a{
+  background-image: url(./images/school-funiture/graddes.jpeg);
+}
+
+
+.product-img23b{
+  background-image: url(./images/school-funiture/Teacher\ Life\ Archives\ -\ 2\ Peas\ and\ a\ Dog.jpeg);
+}
+
+
+.product-img23c{
+  background-image: url(./images/school-funiture/comp-lab.jpeg);
+}
+
+
+.product-img23d{
+  background-image: url(./images/school-funiture/comp-lab\ \(2\).jpeg);
+}
+
+
+.product-img26a{
+  background-image: url(./images/school-funiture/ecdl\ Library\ Design\ Case\ Study.jpeg);
+}
+
+
+.product-img26b{
+  background-image: url(./images/school-funiture/ecd\ \(4\).jpeg);
+}
+
+
+.product-img26c{
+  background-image: url(./images/school-funiture/other2.jpeg);
+}
+
+
+.product-img26d{
+  background-image: url(./images/school-funiture/playroom.jpeg);
+}
+
